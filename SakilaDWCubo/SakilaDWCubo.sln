@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SakilaDWCubo", "SakilaDWCubo\SakilaDWCubo.dwproj", "{3D009E60-1215-4C0F-845E-CE7FC6491A8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D009E60-1215-4C0F-845E-CE7FC6491A8F}.Development|Default.ActiveCfg = Development
+		{3D009E60-1215-4C0F-845E-CE7FC6491A8F}.Development|Default.Build.0 = Development
+		{3D009E60-1215-4C0F-845E-CE7FC6491A8F}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C3E7817-093A-4602-ACF4-9DD67679D5AF}
+	EndGlobalSection
+EndGlobal

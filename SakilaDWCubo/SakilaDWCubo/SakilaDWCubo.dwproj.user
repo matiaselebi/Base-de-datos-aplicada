@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>sakilaDW</Id>
+            <Name>sakilaDW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO6SAc/aPMUCoejwCsot+pwAAAAASAAAAcwBhAGsAaQBsAGEARABXAAAAEGYAAAABAAAgAAAASBP2is4xoFzIcaGxG3wdav89s6F3Rf70ggC6fkNKiG0AAAAADoAAAAACAAAgAAAAEbZUmLdJDOtKMVfxxM8U8rXRV7tGzdD29DhhOTojx70QAAAAVz9HLfrlRFxyG4qqt9Smv0AAAAB+01Ic5VdHp4bXSNFg63kMeZQtyGqXpVIASJDZwdn/n493x3+HeW+dQR6WK/UbJdfRZoxZt5ZAhZIxW14OFjtr</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Sakila DW</Id>
+            <Name>Sakila DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO6SAc/aPMUCoejwCsot+pwAAAAAUAAAAUwBhAGsAaQBsAGEAIABEAFcAAAAQZgAAAAEAACAAAAA+T6S9jHSpEKcWAyE+kqkIzzoG2dI7FtIlrjIX1A9XHgAAAAAOgAAAAAIAACAAAADGJwRFrWk1/jHfmgj8eFJuOpTVosxpx062jRslQutQuBAAAABivJGC0oPEeSMFUZiKwC19QAAAAPpERx6jBGU4o3IfsspN1vuMb9ELmAURTnEaVYVseKxkqvtuJ9pCmamhEwX4TO1xLLMGcYNdG06GReFKK+xArmk=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>sakilaDW</Id>
+            <Name>sakilaDW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO6SAc/aPMUCoejwCsot+pwAAAAASAAAAcwBhAGsAaQBsAGEARABXAAAAEGYAAAABAAAgAAAA+9iKl8sSIOQIt3LAViIszTC+DtsdtEGLB/qMNhEEk0gAAAAADoAAAAACAAAgAAAALHawQtMTgNiYd3Cz84uiJeH+62b0IhXmRZCOxZavNMoQAAAA8XRIygiX9qSvLD++xGgM1kAAAACoZAi8LPnrh4FDVW1+50F0rJI6pEvZYJ9WV8xOijz+B0ZIP5gB+90yK6sA8B6rIs4GXdezmUqqRgRtxk7xvMMv</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Sakila DW</Id>
+            <Name>Sakila DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO6SAc/aPMUCoejwCsot+pwAAAAAUAAAAUwBhAGsAaQBsAGEAIABEAFcAAAAQZgAAAAEAACAAAADxm7lqmVYx0QYsP0i1JJYORg4AytZcBGlMA0tB/vlF3wAAAAAOgAAAAAIAACAAAADJp8K7jVtYmDfHLltZ2CxQRSMaikdfFT3P3scE+9H3BxAAAABrBcwbSHYwkJ8JaGvu7J2CQAAAAHvIhQuUoxDwAeGAYQN1Eoi7AwYeei7OfjLJ9D2AM3QbqiTb0D23yNV8q1dhT15zUFFhG6xFD0+G9VmICg64qTA=</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>090L6PC19-10217\CUBO</TargetServer>
+        <TargetDatabase>SakilaDWCubo</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

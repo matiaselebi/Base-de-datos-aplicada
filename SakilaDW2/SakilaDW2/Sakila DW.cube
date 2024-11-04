@@ -1,0 +1,300 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e1c137fe-f989-4e89-bf16-d3f2880c15d3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sakila DW</ID>
+  <Name>Sakila DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="7d0934e7-3fbf-424c-ba69-ec25fa1eafcd">
+      <ID>Dim Film</ID>
+      <Name>Dim Film</Name>
+      <DimensionID>Dim Film</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b2af4cd5-0727-4204-a6b1-0fea8149d426">
+          <AttributeID>Film SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a25056d-7cc5-49db-930c-64efbbcd479c">
+          <AttributeID>Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2062b96b-bd98-48c9-b564-15fa308a8bb5">
+          <AttributeID>Description</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="8959669f-a8ba-422a-ad96-9f2592d22704">
+          <AttributeID>Release Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="572123bd-8c86-42f8-8387-2ac0bb61fcc7">
+          <AttributeID>Language</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0499f53c-f579-4036-94a2-42720e3a2d83">
+          <AttributeID>Length</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="840c916d-06c4-4a42-b95e-025e19b65cd6">
+          <AttributeID>Rating</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b53ae443-8edf-404a-97b9-48817cc3721c">
+          <AttributeID>Categoria</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="681c4629-6ed7-4506-a97b-08cf676cc24d">
+      <ID>Dim Customer</ID>
+      <Name>Dim Customer</Name>
+      <DimensionID>Dim Customer</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="337e0175-8d54-47ca-9ec5-4810227a8125">
+          <AttributeID>Customer SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc698b8c-984d-427f-bbc7-432691ad9452">
+          <AttributeID>First Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="352fa9d7-3c23-431a-9527-e0829d8a1efb">
+          <AttributeID>Last Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94d4257c-a9f8-471a-8e0b-9f15c0d089ff">
+          <AttributeID>Email</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="68324b99-b1c2-4a1c-921a-ef9cab7fcb9b">
+          <AttributeID>Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="216e8437-2cab-405b-addd-b877a83cb1e5">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66a07df0-bb85-48e9-99cd-778c6c5daff4">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="55d669e3-aa30-4807-bce7-671e880cc910">
+      <ID>Dim Store</ID>
+      <Name>Dim Store</Name>
+      <DimensionID>Dim Store</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a4ceda69-bc61-4b0c-85a7-a18068094e1e">
+          <AttributeID>Store SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="568f50bd-8e26-4fc5-9fae-09f6619ec416">
+          <AttributeID>Address</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c10a280-e6c5-4aff-bd68-97ea7cab409c">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ec3e5dd8-a115-404e-a93c-c5abef7993fc">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6220b45f-ddc7-4762-9402-912a00b30685">
+      <ID>Dim Payment</ID>
+      <Name>Dim Payment</Name>
+      <DimensionID>Dim Payment</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="79b19a5e-cc24-4868-bff3-7164dc3f212b">
+          <AttributeID>Payment SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf05496f-2900-4c1a-a21f-67eb74028cd1">
+          <AttributeID>Payment Date</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a9a34b6a-96ef-47d5-944a-7a2c6ffb88b3">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="28210ed3-a583-461b-b2de-40aa290338c7">
+          <AttributeID>Date SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e4c9301-da0c-4860-ad51-9f24c5b8af34">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c806509f-644b-40d9-8680-780d51978434">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00c3ab3c-769b-4e69-8072-b77ebde21a6f">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a1a1182-d153-40d3-8061-808472401d25">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70c1377f-8afe-4774-8a56-edf2e49e1876">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d86275c4-fe37-4ef7-8853-386e30350a04">
+          <AttributeID>Source</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="24ae63a3-0f42-47a6-a153-caadaefff342">
+      <ID>Fact Rental</ID>
+      <Name>Fact Rental</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="02db98b6-4ce6-48c2-8e58-c4f43e82bbbf">
+          <ID>Amount Pay</ID>
+          <Name>Amount Pay</Name>
+          <Source dwd:design-time-name="b2093127-053e-460b-bed1-373c1b4ed9a1">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="56db5498-8de3-4c73-9423-7cac5203a5d3">
+              <TableID>dbo_FactRental</TableID>
+              <ColumnID>AmountPay</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7ef64791-6807-471c-bac0-c3b268814490">
+          <ID>Recuento Fact Rental</ID>
+          <Name>Recuento Fact Rental</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c1b42f7c-3b6a-426a-8a14-6293a99e48aa">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="f4733065-339b-4ac1-8815-6ba5920dbab6">
+              <TableID>dbo_FactRental</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79f1d023-55c0-412e-8c84-f225631c37df">
+          <CubeDimensionID>Dim Film</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="402e0dca-11fc-48d6-a61f-e07da585fc39">
+              <AttributeID>Film SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c2e77fe8-f431-47c9-99e7-c07b28d534b1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5a6308a3-e54c-4a07-b616-54a0b5fc1f98">
+                    <TableID>dbo_FactRental</TableID>
+                    <ColumnID>FilmSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c36c658-3302-41c4-a1c2-3b02150c84ab">
+          <CubeDimensionID>Dim Customer</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c4b034ee-1b10-442e-9f7c-e4be76668781">
+              <AttributeID>Customer SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d49458b-fc21-4939-81f8-99000c63067b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="806dcc16-3583-4593-8ca5-518da06acbe7">
+                    <TableID>dbo_FactRental</TableID>
+                    <ColumnID>CustomerSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a45401ab-4509-4185-a630-bbe611c173ae">
+          <CubeDimensionID>Dim Store</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c66054ea-98b2-4e90-a7cc-ae46bfff33f3">
+              <AttributeID>Store SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b4d243c2-3e2d-4d9e-ad21-9a1dad1b3df3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="87ecd4e1-fe01-4c0a-b5d9-aade97a260d7">
+                    <TableID>dbo_FactRental</TableID>
+                    <ColumnID>StoreSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9071d3af-68e6-4f8d-aba7-c55d8a37e5ab">
+          <CubeDimensionID>Dim Payment</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="32b92828-a963-4849-9704-7c021d4a25be">
+              <AttributeID>Payment SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ab430fc7-06a3-4853-ac38-fd7c7cd87037">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="99c2a4e9-f5b2-4f04-9c62-96d624d1c9bc">
+                    <TableID>dbo_FactRental</TableID>
+                    <ColumnID>PaymentSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a7604941-44dc-47cf-8476-2a12f9aa2642">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="470a93af-d7ca-4059-82a7-4198821f7148">
+              <AttributeID>Date SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="86d5b8d2-28d4-40f7-be5e-5ef897f1c393">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6d6b94d9-713f-41e1-b0ac-d87beb0a44b2">
+                    <TableID>dbo_FactRental</TableID>
+                    <ColumnID>DateSK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d120b3b5-6c3d-4614-9d7a-bf56f57574ff">
+    <DataSourceViewID>Sakila DW</DataSourceViewID>
+  </Source>
+</Cube>

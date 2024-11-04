@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SakilaDW2</Database>
+    <Server>090L6PC19-10217\CUBO</Server>
+    <ConnectionString>Data Source=090L6PC19-10217\CUBO;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>YFnf+A6HxNFQwuQBgLdV5zZfOpQ=22/10/2024 11:49:1422/10/2024 11:49:14</TimeStamp>
+        <ID>
+          <String>SakilaDW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ELD+mF+sG363MqOkghkeOtvprls=22/10/2024 11:49:3522/10/2024 11:49:35</TimeStamp>
+        <ID>
+          <String>Sakila DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>N9ATtFFWjpD5xGBEKZKl96/71ac=22/10/2024 11:50:4322/10/2024 11:50:43</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5vyLQH3piHOYTGVQi4tqoVFNoIM=22/10/2024 11:50:5622/10/2024 11:50:56</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>m+3xZlpGI3+KTxowTtYq+Bc9874=22/10/2024 11:51:2022/10/2024 11:51:20</TimeStamp>
+        <ID>
+          <String>Dim Film</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jYUeRcftmChnOFeg8oketQDNr3Y=22/10/2024 11:51:3622/10/2024 11:51:36</TimeStamp>
+        <ID>
+          <String>Dim Payment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BXreP9x6SSKLvWAWDrQ+byBBTz8=22/10/2024 11:51:5022/10/2024 11:51:50</TimeStamp>
+        <ID>
+          <String>Dim Store</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>De4M7/QMNYcHCpC/9h1rVEuDMOo=22/10/2024 11:53:4222/10/2024 11:53:425NhiBdv7ltHWz/buKOAxS2MRPJA=22/10/2024 11:53:4222/10/2024 11:53:42</TimeStamp>
+        <ID>
+          <String>Sakila DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>z+LT2mVgX8HKCuCpm7xaZStShvU=22/10/2024 11:48:0622/10/2024 11:48:06</TimeStamp>
+      <ID>
+        <String>SakilaDW2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-10-22T14:55:57.753333Z</LastDeployed>
+</DeploymentSnapshot>
